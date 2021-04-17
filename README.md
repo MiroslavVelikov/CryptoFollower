@@ -28,4 +28,4 @@
 - Trayan Sht.
   - trayanshterionov777@gmail.com
 - Igor S.
-  -igor_simeonov@abv.bg
+  - igor_simeonov@abv.bg

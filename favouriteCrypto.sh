@@ -16,3 +16,13 @@ do
 	printf "${name}--${price}--${price_change}"
 	echo  
 done
+echo "Do you want to make another list?[Y/N]"
+read answer
+if [ "$answer" == "Y" ]
+then 
+	clear
+	./favouriteCrypto.sh
+else 
+	clear
+	./menu.sh
+fi

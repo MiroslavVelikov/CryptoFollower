@@ -11,6 +11,7 @@ echo "Do you want to make another search?[Y/N]"
 read answer
 if [ "$answer" == "Y" ]
 then 
+	clear
 	./findCurrency.sh
 else 
 	clear

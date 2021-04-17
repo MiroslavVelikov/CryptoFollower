@@ -17,6 +17,7 @@ function draw_body() {
 	echo "#      currency list              #"
 	echo "#   04.Change currency from       #"
 	echo "#      the favorite list          #"
+	echo "#   05.Exit                       #"
 	echo $line
 }
 
@@ -25,10 +26,39 @@ function choosing() {
 	echo "Choose option from above:"
 	read option
 	echo $option
-	#TODO: Когато сте готови с вашата част направете връзка между този
-	#файл и вашите с if проверка
+        clear
+	if [ "$option" == "01" ]
+	then 
+		./favouriteCrypto.sh
+	elif [ "$option" == "02" ]
+	then 
+		./findCurrency.sh
+	elif [ "$option" == "03" ]
+	then 
+		./replaceAll.sh
+
+	elif [ "$option" == "04" ]
+	then 
+		./replace.sh
+	elif [ "$option" == "05" ]
+	then 
+		clear
+
+	else 
+		clear
+		./menu.sh
+	fi
+}
+	
+function giving_permission() {
+	chmod +x crFollower.sh
+	chmod +x favouriteCrypto.sh
+	chmod +x findCurrency.sh
+	chmod +x replaceAll.sh
+	chmod +x replace.sh
 }
 
+giving_permission
 draw_header
 draw_body
 choosing

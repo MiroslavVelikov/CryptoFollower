@@ -1,8 +1,7 @@
 #!/bin/bash
 
 
-echo "Enter 10 of your favourite currencies. Write it with only lower cases 
-nad replace all the white spaces with '-' "
+echo "Enter 10 of your favourite currencies."
 read -p "01: " fav1
 read -p "02: " fav2
 read -p "03: " fav3

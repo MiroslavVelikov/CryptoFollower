@@ -9,7 +9,7 @@
 Разделен е на 5 части: menu.sh, favouriteCrypto.sh, findCurrency.sh, replace.sh и replaceAll.sh 
 - menu.sh
 	- Дава възможност за избор на действие
-	- Осъществява се даване на позволение за работа с другите 4 shell script файла
+	- Осъществява се даване на позволение за работа с другите 5 shell script файла
 - favouriteCrypto.sh
 	- Принтира информация(име, цена и промяна в цената) за 10-те "любими" крипто валути от текстовия докумет Favor.txt
 - findCurrency.sh

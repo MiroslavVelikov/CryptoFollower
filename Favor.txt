@@ -1,1 +1,1 @@
-Bitcoin,Ethereum,Binance Coin,XPR,Polkadot,Cardano,Litecoin,Dogecoin,Bitcoin Cash,Stellar
+Bitcoin,Ethereum,Binance Coin,XRP,TRON,Cardano,Litecoin,Dogecoin,Bitcoin Cash,Stellar

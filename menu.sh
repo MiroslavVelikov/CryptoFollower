@@ -25,25 +25,18 @@ function draw_body() {
 function choosing() {
 	echo "Choose option from above:"
 	read option
-	echo $option
-        clear
-	if [ "$option" == "01" ]
-	then 
+	
+    clear
+	if [ "$option" == "01" ]; then 
 		./favouriteCrypto.sh
-	elif [ "$option" == "02" ]
-	then 
+	elif [ "$option" == "02" ]; then 
 		./findCurrency.sh
-	elif [ "$option" == "03" ]
-	then 
+	elif [ "$option" == "03" ]; then 
 		./replaceAll.sh
-
-	elif [ "$option" == "04" ]
-	then 
+	elif [ "$option" == "04" ]; then 
 		./replace.sh
-	elif [ "$option" == "05" ]
-	then 
+	elif [ "$option" == "05" ]; then 
 		clear
-
 	else 
 		clear
 		./menu.sh

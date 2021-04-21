@@ -12,11 +12,10 @@ function ask() {
 echo "Do you want to make one more change? [Y/N]"
 read answer
 
-if [ "$answer" == "Y" ]
-then 
+if [ "$answer" == "Y" ]; then 
 	./replace.sh
-elif [ "$answer" == "N" ]
-then 	 clear
+elif [ "$answer" == "N" ]; then
+	clear
 	./menu.sh
 else 
 	echo "Input must be [Y/N] "
@@ -24,4 +23,5 @@ else
 fi
 
 }
+
 ask

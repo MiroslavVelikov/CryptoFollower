@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 echo "Enter 10 of your favourite currencies."
 read -p "01: " fav1
 read -p "02: " fav2
